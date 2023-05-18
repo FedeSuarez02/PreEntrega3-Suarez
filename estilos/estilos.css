@@ -10,11 +10,11 @@ html {
 }
 
 header {
-  background-color: rgb(32, 131, 208);
+  background-color: #327FFA;
 }
 
 .navbar-dark {
-  background-color: rgb(32, 131, 208);
+  background-color: #327FFA;
 }
 
 main {
@@ -25,11 +25,25 @@ main {
   background-size: cover;
 }
 
+.pelota {
+  position: absolute;
+  animation: rebota 1s alternate infinite ease-out;
+}
+
+@keyframes rebota {
+  0% {
+    top: 600px;
+    height: 70px;
+  }
+  100% {
+    top: 300px;
+  }
+}
 .call {
   color: black;
   width: 50%;
-  background-color: rgba(111, 111, 111, 0.662);
-  border: 4px solid rgb(32, 131, 208);
+  background-color: #69CAFA;
+  border: 4px solid black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   float: left;
   margin: 30px;
@@ -46,7 +60,7 @@ h1 .call p {
   margin-bottom: 20px;
 }
 h1 .call a {
-  background-color: rgb(32, 131, 208);
+  background-color: #327FFA;
   color: black;
   padding: 10px 20px;
   text-transform: capitalize;
@@ -58,7 +72,7 @@ h1 .call a:hover {
 
 h2.sec {
   text-align: center;
-  background-color: rgb(32, 131, 208);
+  background-color: #327FFA;
   color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-transform: capitalize;
@@ -74,7 +88,7 @@ h2.sec {
   margin: 4px;
   padding: 15px 25px;
   text-transform: capitalize;
-  background-color: rgba(111, 111, 111, 0.662);
+  background-color: #69CAFA;
   border: 3px solid;
 }
 
@@ -87,7 +101,7 @@ h2.sec {
 }
 
 .contenedor {
-  background-color: rgb(32, 131, 208);
+  background-color: #327FFA;
   width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -170,7 +184,7 @@ h2.sec {
   display: block;
   text-align: center;
   border: 3px solid;
-  background-color: rgb(32, 131, 208);
+  background-color: #327FFA;
 }
 
 footer {
@@ -185,14 +199,14 @@ footer {
 
 footer p {
   color: black;
-  background-color: rgb(32, 131, 208);
+  background-color: #327FFA;
   font-size: 20px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin-bottom: 25px;
 }
 
 .Contacto a {
-  color: rgb(32, 131, 208);
+  color: #327FFA;
   letter-spacing: 40px;
   font-size: 30px;
 }
@@ -203,7 +217,7 @@ footer p {
   line-height: 40px;
   font-family: 25px;
   color: rgb(255, 255, 255);
-  background-color: rgb(32, 131, 208);
+  background-color: #327FFA;
   text-align: center;
   position: fixed;
   bottom: 40px;
@@ -245,7 +259,7 @@ footer p {
 }
 
 .estadistica {
-  background-color: rgba(111, 111, 111, 0.662);
+  background-color: #69CAFA;
   text-align: left;
   letter-spacing: 0px;
   border: 3px solid black;

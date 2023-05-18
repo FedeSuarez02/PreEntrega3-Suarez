@@ -1,0 +1,14 @@
+.pelota {
+    position: absolute;
+    animation: rebota 1s alternate infinite ease-out;
+  }
+  
+  @keyframes rebota {
+    0% {
+      top: 600px;
+      height: 70px;
+    }
+    100% {
+      top: 300px;
+    }
+  }

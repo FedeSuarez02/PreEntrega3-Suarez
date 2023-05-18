@@ -1,0 +1,36 @@
+.call {
+
+    color: $color3;
+    width: 50%;
+    background-color: $color2;
+    border: 4px solid $color3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: left;
+    margin: 30px;
+    padding: 30px;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: $color3;
+    margin-bottom: 20px;
+    font-weight: bold;
+
+
+        .call p {
+        margin-bottom: 20px;
+        }
+
+        .call a {
+            background-color: $color1;
+            color: $color3;
+            padding: 10px 20px;
+            text-transform: capitalize;
+            border: 3px solid $color4;
+        }
+
+            .call a:hover {
+                background-color: $color5;
+}
+
+}

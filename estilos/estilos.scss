@@ -1,6 +1,6 @@
 //Colores
-$color1:rgb(32, 131, 208);
-$color2:rgba(111, 111, 111, 0.662);
+$color1:#327FFA;
+$color2:#69CAFA;
 $color3:black;
 $color4:rgb(255, 255, 255);
 $color5:rgb(37, 93, 191);
@@ -37,42 +37,9 @@ main {
 
 }
 
-.call {
+@import "_animaciones.scss";
 
-    color: $color3;
-    width: 50%;
-    background-color: $color2;
-    border: 4px solid $color1;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    float: left;
-    margin: 30px;
-    padding: 30px;
-}
-
-h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: $color3;
-    margin-bottom: 20px;
-    font-weight: bold;
-
-
-        .call p {
-        margin-bottom: 20px;
-        }
-
-        .call a {
-            background-color: $color1;
-            color: $color3;
-            padding: 10px 20px;
-            text-transform: capitalize;
-            border: 3px solid $color4;
-        }
-
-            .call a:hover {
-                background-color: $color5;
-}
-
-}
+@import "_caja.scss";
 
 h2.sec {
     text-align: center;
@@ -94,7 +61,7 @@ h2.sec {
     padding: 15px 25px;
     text-transform: capitalize;
     background-color: $color2;
-    border: 3px solid
+    border: 3px solid;
 }
 
 .Parrafo {
@@ -174,22 +141,7 @@ h2.sec {
 }
 }
 
-.cont-img {
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.img1 {
-    margin: 10px;
-    padding: 0px;
-    display: center;
-    width: 50%;
-    border: 3px solid;
-
-
-}
+@import "_galeria.scss";
 
 .subtitulo {
     margin: 10px;
@@ -212,48 +164,7 @@ h2.sec {
 
 }
 
-footer {
-    text-align: center;
-    font-size: 30px;
-    background-color: $color3;
-    color: $color4;
-    padding: 20px;
-    text-align: center;
-    border-radius: 3px solid;
-
-}
-
-footer p {
-    color: $color3;
-    background-color: $color1;
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-bottom: 25px;
-}
-
-.Contacto a {
-    color: $color1;
-    letter-spacing: 40px;
-    font-size: 30px;
-}
-
-.subir {
-    height: 40px;
-    width: 40px;
-    line-height: 40px;
-    font-family: 25px;
-    color: $color4;
-    background-color: $color1;
-    text-align: center;
-    position: fixed;
-    bottom: 40px;
-    right: 40px;
-    border: 2px solid $color3;
-}
-
-.subir:hover {
-    box-shadow: 0 0 5px $color4;
-}
+@import "_footer.scss";
 
 .carousel-inner img {
     width: 100%;

@@ -10,26 +10,26 @@ html {
 }
 
 header {
-  background-color: rgba(28, 145, 187, 0.77);
+  background-color: rgb(32, 131, 208);
 }
 
 .navbar-dark {
-  background-color: rgba(28, 145, 187, 0.77);
+  background-color: rgb(32, 131, 208);
 }
 
 main {
   height: calc(100vh - 80px);
   width: 100%;
   background-image: url(../img/Messi\ con\ la\ copa.png);
-  background-color: #312f2f;
+  background-color: black;
   background-size: cover;
 }
 
 .call {
-  color: #000000;
+  color: black;
   width: 50%;
   background-color: rgba(111, 111, 111, 0.662);
-  border: 4px solid rgba(28, 145, 187, 0.77);
+  border: 4px solid rgb(32, 131, 208);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   float: left;
   margin: 30px;
@@ -38,31 +38,28 @@ main {
 
 h1 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: rgb(0, 0, 0);
+  color: black;
   margin-bottom: 20px;
   font-weight: bold;
 }
-
-.call p {
+h1 .call p {
   margin-bottom: 20px;
 }
-
-.call a {
-  background-color: rgba(0, 239, 247, 0.595);
-  color: #000000;
+h1 .call a {
+  background-color: rgb(32, 131, 208);
+  color: black;
   padding: 10px 20px;
   text-transform: capitalize;
-  border: 3px solid rgb(251, 250, 247);
+  border: 3px solid rgb(255, 255, 255);
 }
-
-.call a:hover {
-  background-color: #fef500;
+h1 .call a:hover {
+  background-color: rgb(37, 93, 191);
 }
 
 h2.sec {
   text-align: center;
-  background-color: rgba(28, 145, 187, 0.77);
-  color: #000000;
+  background-color: rgb(32, 131, 208);
+  color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-transform: capitalize;
   padding: 10px;
@@ -77,7 +74,7 @@ h2.sec {
   margin: 4px;
   padding: 15px 25px;
   text-transform: capitalize;
-  background-color: rgba(84, 85, 85, 0.662);
+  background-color: rgba(111, 111, 111, 0.662);
   border: 3px solid;
 }
 
@@ -90,7 +87,7 @@ h2.sec {
 }
 
 .contenedor {
-  background-color: rgba(28, 145, 187, 0.77);
+  background-color: rgb(32, 131, 208);
   width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -106,44 +103,37 @@ h2.sec {
   background-position: center;
   border-radius: 3px;
 }
-
-.item1 {
+.item .item1 {
   background-image: url(/img/Argentina\ arabia.png);
   grid-column: 1/3;
   grid-row: 1/2;
 }
-
-.item2 {
+.item .item2 {
   background-image: url(/img/Argentina\ Mexico.png);
   grid-column: 3/5;
   grid-row: 1/2;
 }
-
-.item3 {
+.item .item3 {
   background-image: url(/img/Argentina\ Polonia.png);
   grid-column: 1/3;
   grid-row: 2/3;
 }
-
-.item4 {
+.item .item4 {
   background-image: url(/img/Argentina\ Australia.png);
   grid-column: 3/5;
   grid-row: 2/3;
 }
-
-.item5 {
+.item .item5 {
   background-image: url(/img/Argentina\ Holanda.png);
   grid-column: 1/3;
   grid-row: 3/4;
 }
-
-.item6 {
+.item .item6 {
   background-image: url(/img/Argentina\ Croacia.png);
   grid-column: 3/5;
   grid-row: 3/4;
 }
-
-.item7 {
+.item .item7 {
   background-image: url(/img/Argentina\ Francia.png);
   grid-column: 1/5;
 }
@@ -170,7 +160,7 @@ h2.sec {
   text-align: center;
   display: inline-block;
   border: 2px solid;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
@@ -180,29 +170,29 @@ h2.sec {
   display: block;
   text-align: center;
   border: 3px solid;
-  background-color: rgba(28, 145, 187, 0.77);
+  background-color: rgb(32, 131, 208);
 }
 
 footer {
   text-align: center;
   font-size: 30px;
-  background-color: #000;
-  color: #fff;
+  background-color: black;
+  color: rgb(255, 255, 255);
   padding: 20px;
   text-align: center;
   border-radius: 3px solid;
 }
 
 footer p {
-  color: #000;
-  background-color: rgba(28, 145, 187, 0.77);
+  color: black;
+  background-color: rgb(32, 131, 208);
   font-size: 20px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin-bottom: 25px;
 }
 
 .Contacto a {
-  color: rgba(28, 145, 187, 0.77);
+  color: rgb(32, 131, 208);
   letter-spacing: 40px;
   font-size: 30px;
 }
@@ -212,17 +202,17 @@ footer p {
   width: 40px;
   line-height: 40px;
   font-family: 25px;
-  color: #fff;
-  background-color: rgb(19, 165, 209);
+  color: rgb(255, 255, 255);
+  background-color: rgb(32, 131, 208);
   text-align: center;
   position: fixed;
   bottom: 40px;
   right: 40px;
-  border: 2px solid #000000;
+  border: 2px solid black;
 }
 
 .subir:hover {
-  box-shadow: 0 0 5px #fff;
+  box-shadow: 0 0 5px rgb(255, 255, 255);
 }
 
 .carousel-inner img {
@@ -245,8 +235,8 @@ footer p {
   height: 30px;
   width: 30px;
   border-radius: 30%;
-  border: 3px solid rgb(255, 249, 249);
-  background-color: rgba(0, 0, 0, 0.3647058824);
+  border: 3px solid rgb(255, 255, 255);
+  background-color: black;
 }
 
 .carousel-control-prev-icon:hover {
@@ -255,8 +245,31 @@ footer p {
 }
 
 .estadistica {
-  background-color: rgba(51, 48, 48, 0.499);
+  background-color: rgba(111, 111, 111, 0.662);
   text-align: left;
   letter-spacing: 0px;
   border: 3px solid black;
+}
+
+section {
+  margin: 0px;
+  display: flex;
+  width: 600px;
+  height: 430px;
+}
+
+section img {
+  width: 0px;
+  flex-grow: 1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.8;
+  transition: 0.5 ease;
+}
+
+section img:hover {
+  cursor: crosshair;
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
 }/*# sourceMappingURL=estilos.css.map */

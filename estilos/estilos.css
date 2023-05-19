@@ -167,6 +167,95 @@ h2.sec {
   border: 3px solid;
 }
 
+section {
+  margin: 0px;
+  display: flex;
+  width: 600px;
+  height: 430px;
+}
+
+section img {
+  width: 0px;
+  flex-grow: 1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.8;
+  transition: 0.5 ease;
+}
+
+section img:hover {
+  cursor: crosshair;
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+.descripcion {
+  background-color: #69CAFA;
+  padding: 50px;
+  margin: 20px;
+  border: solid 5px black;
+}
+.descripcion h5 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: rgb(37, 93, 191);
+}
+.descripcion p {
+  text-align: left;
+  margin: 10px;
+  padding: 25px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.descripcion img {
+  border: solid 4px black;
+  width: 25%;
+}
+.descripcion .ov-btn-slide-top {
+  background: #fff;
+  color: #4741d7;
+  border: 2px solid #4741d7;
+  padding: 16px 20px;
+  border-radius: 3px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+}
+.descripcion .ov-btn-slide-top:hover {
+  color: #fff;
+}
+.descripcion .ov-btn-slide-top::after {
+  content: "";
+  background: #4741d7;
+  position: absolute;
+  z-index: -1;
+  padding: 16px 20px;
+  display: block;
+  left: 0;
+  right: 0;
+  top: -100%;
+  bottom: 100%;
+  transition: all 0.35s;
+}
+.descripcion .ov-btn-slide-top:hover::after {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: all 0.35s;
+}
+
+.fotojugador {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .subtitulo {
   margin: 10px;
   padding: 10px;
@@ -278,6 +367,21 @@ footer p {
   margin: 3px;
 }
 
+.cont-img {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img1 {
+  margin: 10px;
+  padding: 0px;
+  display: center;
+  width: 50%;
+  border: 3px solid;
+}
+
 section {
   margin: 0px;
   display: flex;
@@ -324,6 +428,40 @@ section img:hover {
 .descripcion img {
   border: solid 4px black;
   width: 25%;
+}
+.descripcion .ov-btn-slide-top {
+  background: #fff;
+  color: #4741d7;
+  border: 2px solid #4741d7;
+  padding: 16px 20px;
+  border-radius: 3px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+}
+.descripcion .ov-btn-slide-top:hover {
+  color: #fff;
+}
+.descripcion .ov-btn-slide-top::after {
+  content: "";
+  background: #4741d7;
+  position: absolute;
+  z-index: -1;
+  padding: 16px 20px;
+  display: block;
+  left: 0;
+  right: 0;
+  top: -100%;
+  bottom: 100%;
+  transition: all 0.35s;
+}
+.descripcion .ov-btn-slide-top:hover::after {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: all 0.35s;
 }
 
 .fotojugador {
